@@ -243,6 +243,13 @@ Future Extensibility
 7. HL7/FHIR - standard healthcare data exchange
 8. Mobile App - React Native companion app
 
+🔒 Security
+
+· Passwords hashed with SHA-256 and salt.
+· Delete patient action requires a separate passcode (default 1234, changeable in Settings).
+· Role-based access control for sensitive operations.
+· Audit log records all critical actions.
+
 ---
 
 Summary
